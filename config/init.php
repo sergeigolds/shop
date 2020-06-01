@@ -8,15 +8,14 @@ define("CORE", ROOT . '/vendor/ishop/core');
 define("LIBS", ROOT . '/vendor/ishop/core/libs');
 define("CACHE", ROOT . '/tmp/cache');
 define("CONF", ROOT . '/config');
-define("LAYOUT", ROOT . 'default');
+define("LAYOUT", 'default');
 
-// http://shop/public/index.php
+// http://ishop2.loc/public/index.php
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
-// http://shop/public/
-$app_path = preg_replace("#[^/]+$#", '', $app_path );
-// http://shop
+// http://ishop2.loc/public/
+$app_path = preg_replace("#[^/]+$#", '', $app_path);
+// http://ishop2.loc
 $app_path = str_replace('/public/', '', $app_path);
-
 define("PATH", $app_path);
 define("ADMIN", PATH . '/admin');
 
