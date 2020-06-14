@@ -18,3 +18,22 @@
 [2020-06-14 14:01:54] Error text : Page not found | File : C:\OpenServer\domains\shop\public\index.php | Line : 8 
 [2020-06-14 14:02:09] Error text : Page not found | File : C:\OpenServer\domains\shop\public\index.php | Line : 8 
 [2020-06-14 14:09:04] Error text : Page not found | File : C:\OpenServer\domains\shop\public\index.php | Line : 8 
+[2020-06-14 15:26:57] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 30 
+[2020-06-14 17:48:12] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 30 
+[2020-06-14 18:05:35] Error text : Controller $controller not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 33 
+[2020-06-14 18:06:07] Error text : Controllerapp\controllers\PageNewPiskaControllernot found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 33 
+[2020-06-14 18:06:12] Error text : Controller app\controllers\PageNewPiskaControllernot found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 33 
+[2020-06-14 18:06:17] Error text : Controller app\controllers\PageNewPiskaController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 33 
+[2020-06-14 18:06:54] Error text : Class 'app\controllers\PageNewPiskaController' not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 30 
+[2020-06-14 18:07:25] Error text : Class 'app\controllers\PageController' not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 30 
+[2020-06-14 18:11:09] Error text : Controller app\controllers\SiskapiskaPorrController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 38 
+[2020-06-14 18:11:20] Error text : Controller app\controllers\MainController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 38 
+[2020-06-14 18:18:09] Error text : Access to undeclared static property: app\controllers\MainController::$action | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
+[2020-06-14 18:19:07] Error text : Access to undeclared static property: app\controllers\MainController::$action | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
+[2020-06-14 18:19:08] Error text : Access to undeclared static property: app\controllers\MainController::$action | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
+[2020-06-14 18:19:08] Error text : Access to undeclared static property: app\controllers\MainController::$action | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
+[2020-06-14 18:19:08] Error text : Access to undeclared static property: app\controllers\MainController::$action | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
+[2020-06-14 18:19:08] Error text : Access to undeclared static property: app\controllers\MainController::$action | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
+[2020-06-14 18:22:13] Error text : Method app\controllers\MainController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
+[2020-06-14 18:36:47] Error text : Controller app\controllers\PiskaController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 38 
+[2020-06-14 18:36:51] Error text : Method app\controllers\PageController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
