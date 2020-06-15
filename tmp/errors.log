@@ -37,3 +37,13 @@
 [2020-06-14 18:22:13] Error text : Method app\controllers\MainController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
 [2020-06-14 18:36:47] Error text : Controller app\controllers\PiskaController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 38 
 [2020-06-14 18:36:51] Error text : Method app\controllers\PageController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 35 
+[2020-06-15 18:03:43] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 41 
+[2020-06-15 19:32:55] Error text : Layot default not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 49 
+[2020-06-15 19:35:05] Error text : Layot default not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 49 
+[2020-06-15 19:35:05] Error text : Layot default not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 49 
+[2020-06-15 19:35:06] Error text : Layot default not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 49 
+[2020-06-15 19:35:06] Error text : Layot default not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 49 
+[2020-06-15 19:36:39] Error text : Layot default not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 49 
+[2020-06-15 19:36:39] Error text : Layot default not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 49 
+[2020-06-15 19:37:35] Error text : Layot default not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 49 
+[2020-06-15 19:37:49] Error text : Layot default not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 49 
