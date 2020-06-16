@@ -3,6 +3,8 @@
 namespace app\controllers;
 //use ishop\App;
 
+use ishop\Cache;
+
 class MainController extends AppController
 {
 
@@ -14,7 +16,16 @@ class MainController extends AppController
         //$this->setMeta(App::$app->getProperty('shop_name'), 'description...', 'keywords...');
         $name = 'Admin';
         $age = 30;
-        $this->set(compact('name', 'age', 'posts'));
+        $names = ['Admin', 'Admin1', 'Admin2'];
+        $cache = Cache::instance();
+        //$cache->set('test', $names);
+        //$cache->delete('test');
+        $data = $cache->get('test');
+        if (!$data) {
+            $cache->set('test', $names);
+        }
+        debug($data);
+        $this->set(compact('name', 'age', 'names', 'posts'));
     }
 
 
