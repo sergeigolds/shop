@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Error</title>
+    <title>Ошибка</title>
 </head>
 <body>
 
-<h1>Error</h1>
+<h1>Произошла ошибка</h1>
 
 </body>
 </html>
