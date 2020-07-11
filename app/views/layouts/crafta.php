@@ -20,6 +20,7 @@
             <div class="col-md-6 top-header-left">
                 <div class="drop">
                     <div class="box">
+                        <!-- Better to do as ul>li dropdown bootstrap-->
                         <select tabindex="4" class="dropdown drop">
                             <option value="" class="label">Dollar :</option>
                             <option value="1">Dollar</option>
