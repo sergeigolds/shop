@@ -2,6 +2,8 @@
 
 namespace app\widgets\currency;
 
+use ishop\App;
+
 class Currency
 {
     protected $tpl;
@@ -16,8 +18,9 @@ class Currency
 
     protected function run()
     {
-
-        $this->getHtml();
+        $this->currencies = App::$app->getProperty('currencies');
+        $this->currency = App::$app->getProperty('currency');
+        echo $this->getHtml();
     }
 
     public static function getCurrencies()
@@ -25,13 +28,22 @@ class Currency
         return \R::getAssoc("SELECT code, title, symbol_left, symbol_right, value, base FROM currency ORDER BY base DESC");
     }
 
-    public static function getCurrency()
+    public static function getCurrency($currencies)
     {
-
+        if (isset($_COOKIE['currency']) && array_key_exists($_COOKIE['currency'], $currencies)) {
+            $key = $_COOKIE['currency'];
+        } else {
+            $key = key($currencies);
+        }
+        $currency = $currencies[$key];
+        $currency['code'] = $key;
+        return $currency;
     }
 
     protected function getHtml()
     {
-
+        ob_start();
+        require_once $this->tpl;
+        return ob_get_clean();
     }
 }
