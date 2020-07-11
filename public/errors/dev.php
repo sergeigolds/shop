@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ошибка</title>
+    <title>Error</title>
 </head>
 <body>
 
-<h1>Произошла ошибка</h1>
-<p><b>Код ошибки:</b> <?= $errno ?></p>
-<p><b>Текст ошибки:</b> <?= $errstr ?></p>
-<p><b>Файл, в котором произошла ошибка:</b> <?= $errfile ?></p>
-<p><b>Строка, в которой произошла ошибка:</b> <?= $errline ?></p>
+<h1>Error</h1>
+<p><b>Error code:</b> <?= $errno ?></p>
+<p><b>Error text:</b> <?= $errstr ?></p>
+<p><b>File:</b> <?= $errfile ?></p>
+<p><b>Line:</b> <?= $errline ?></p>
 
 </body>
 </html>

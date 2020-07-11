@@ -81,3 +81,6 @@
 [2020-07-11 17:19:55] Error text : Controller app\controllers\CartController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
 [2020-07-11 17:20:07] Error text : Controller app\controllers\CartController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
 [2020-07-11 20:17:32] Error text : Controller app\controllers\CartController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-11 21:25:26] Error text : syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' | File : C:\OpenServer\domains\shop\app\widgets\menu\Menu.php | Line : 42 
+[2020-07-11 21:40:50] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-11 21:44:47] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 

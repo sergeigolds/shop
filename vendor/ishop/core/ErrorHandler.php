@@ -1,8 +1,6 @@
 <?php
 
-
 namespace ishop;
-
 
 class ErrorHandler
 {
