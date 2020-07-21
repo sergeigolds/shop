@@ -3078,3 +3078,7 @@ ul.tag-men {
 	margin-right: 10px;
 	float: left;
 }
+
+#cart table img {
+	height: 100px;
+}

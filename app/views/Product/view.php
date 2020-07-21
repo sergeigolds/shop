@@ -78,25 +78,28 @@
                             </h5>
                             <p><?= $product->content; ?></p>
 
-                            <div class="available">
-                                <ul>
-                                    <li>Color
-                                        <select>
-                                            <option>Choose color</option>
-                                            <?php foreach ($mods as $mod): ?>
-                                                <option
-                                                        data-title="<?= $mod->title; ?>"
-                                                        data-price="<?= $mod->price * $curr['value']; ?>"
-                                                        value="<?= $mod->id; ?>">
-                                                    <?= $mod->title; ?>
-                                                </option>
-                                            <?php endforeach; ?>
-                                        </select>
-                                    </li>
+                            <?php if ($mods): ?>
+                                <div class="available">
+                                    <ul>
+                                        <li>Color
+                                            <select>
+                                                <option>Choose color</option>
+                                                <?php foreach ($mods as $mod): ?>
+                                                    <option
+                                                            data-title="<?= $mod->title; ?>"
+                                                            data-price="<?= $mod->price * $curr['value']; ?>"
+                                                            value="<?= $mod->id; ?>">
+                                                        <?= $mod->title; ?>
+                                                    </option>
+                                                <?php endforeach; ?>
+                                            </select>
+                                        </li>
 
-                                    <div class="clearfix"></div>
-                                </ul>
-                            </div>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                </div>
+                            <?php endif; ?>
+
                             <ul class="tag-men">
                                 <li><span>Category</span>
                                     <span>
