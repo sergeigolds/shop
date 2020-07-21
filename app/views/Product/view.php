@@ -59,7 +59,10 @@
                                 <div class="clearfix"></div>
                             </div>
 
-                            <h5 class="item_price">
+                            <h5
+                                    data-base="<?= $product->price * $curr['value']; ?>"
+                                    id="base_price"
+                                    class="item_price">
                                 <?= $curr['symbol_left']; ?>
                                 <?= $product->price * $curr['value']; ?>
                                 <?= $curr['symbol_right']; ?>
@@ -82,10 +85,10 @@
                                             <option>Choose color</option>
                                             <?php foreach ($mods as $mod): ?>
                                                 <option
-                                                        data-title="<?php $mod->title; ?>"
-                                                        data-price="<?php $mod->price * $curr; ?>"
-                                                        value="<?php $mod->id; ?>">
-                                                    <?php $mod->title; ?>
+                                                        data-title="<?= $mod->title; ?>"
+                                                        data-price="<?= $mod->price * $curr['value']; ?>"
+                                                        value="<?= $mod->id; ?>">
+                                                    <?= $mod->title; ?>
                                                 </option>
                                             <?php endforeach; ?>
                                         </select>

@@ -132,3 +132,14 @@
 [2020-07-20 20:24:50] Error text : Controller app\controllers\CartController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
 [2020-07-21 13:10:44] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-07-21 15:05:37] Error text : Controller app\controllers\CategoryController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-21 15:41:47] Error text : Unsupported operand types | File : C:\OpenServer\domains\shop\app\views\Product\view.php | Line : 89 
+[2020-07-21 15:41:47] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-21 15:41:49] Error text : Unsupported operand types | File : C:\OpenServer\domains\shop\app\views\Product\view.php | Line : 89 
+[2020-07-21 15:41:49] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-21 15:42:15] Error text : Unsupported operand types | File : C:\OpenServer\domains\shop\app\views\Product\view.php | Line : 89 
+[2020-07-21 15:42:15] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-21 15:44:00] Error text : Unsupported operand types | File : C:\OpenServer\domains\shop\app\views\Product\view.php | Line : 89 
+[2020-07-21 15:44:00] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-21 17:57:57] Error text : View C:\OpenServer\domains\shop/app/views/Cart/add.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-07-21 17:58:07] Error text : View C:\OpenServer\domains\shop/app/views/Cart/add.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-07-21 17:58:09] Error text : View C:\OpenServer\domains\shop/app/views/Cart/add.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
