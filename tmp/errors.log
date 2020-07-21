@@ -84,3 +84,50 @@
 [2020-07-11 21:25:26] Error text : syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' | File : C:\OpenServer\domains\shop\app\widgets\menu\Menu.php | Line : 42 
 [2020-07-11 21:40:50] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-07-11 21:44:47] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 16:23:06] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:16:44] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:26:21] Error text : Controller app\controllers\CategoryController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:26:26] Error text : Controller app\controllers\CategoryController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:26:29] Error text : Controller app\controllers\CategoryController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:26:33] Error text : Controller app\controllers\CategoryController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:26:34] Error text : Controller app\controllers\CategoryController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:26:51] Error text : Controller app\controllers\CategoryController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:31:13] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:31:29] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:35:10] Error text : Controller app\controllers\ProductController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:35:46] Error text : Controller app\controllers\ProductController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:35:47] Error text : Controller app\controllers\ProductController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:35:50] Error text : Controller app\controllers\ProductController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 17:36:46] Error text : Method app\controllers\ProductController::viewAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:38:28] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 17:48:12] Error text : Page not found | File : C:\OpenServer\domains\shop\app\controllers\ProductController.php | Line : 12 
+[2020-07-20 17:52:07] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-20 18:36:25] Error text : syntax error, unexpected '}' | File : C:\OpenServer\domains\shop\app\controllers\ProductController.php | Line : 24 
+[2020-07-20 18:36:35] Error text : syntax error, unexpected '}' | File : C:\OpenServer\domains\shop\app\controllers\ProductController.php | Line : 24 
+[2020-07-20 19:59:08] Error text : Controller app\controllers\CategoryController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 20:08:02] Error text : Controller app\controllers\CartController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 20:17:51] Error text : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'related.product.product_id' in 'where clause' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-07-20 20:24:43] Error text : Controller app\controllers\CartController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-20 20:24:50] Error text : Controller app\controllers\CartController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-21 13:10:44] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
