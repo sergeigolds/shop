@@ -131,3 +131,4 @@
 [2020-07-20 20:24:43] Error text : Controller app\controllers\CartController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
 [2020-07-20 20:24:50] Error text : Controller app\controllers\CartController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
 [2020-07-21 13:10:44] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-21 15:05:37] Error text : Controller app\controllers\CategoryController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 

@@ -3,8 +3,7 @@
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
-                <li><a href="<?= PATH; ?>">Home</a></li>
-                <li class="active">Single</li>
+                <?= $breadcrumbs; ?>
             </ol>
         </div>
     </div>
@@ -41,9 +40,7 @@
                     <?php
                     $curr = \ishop\App::$app->getProperty('currency');
                     $cats = \ishop\App::$app->getProperty('cats');
-
                     ?>
-
                     <div class="col-md-7 single-top-right">
                         <div class="single-para simpleCart_shelfItem">
                             <h2><?= $product->title; ?></h2>
@@ -77,22 +74,23 @@
                                 <?php endif; ?>
                             </h5>
                             <p><?= $product->content; ?></p>
+
                             <div class="available">
                                 <ul>
                                     <li>Color
                                         <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
-                                        </select></li>
-                                    <li class="size-in">Size<select>
-                                            <option>Large</option>
-                                            <option>Medium</option>
-                                            <option>small</option>
-                                            <option>Large</option>
-                                            <option>small</option>
-                                        </select></li>
+                                            <option>Choose color</option>
+                                            <?php foreach ($mods as $mod): ?>
+                                                <option
+                                                        data-title="<?php $mod->title; ?>"
+                                                        data-price="<?php $mod->price * $curr; ?>"
+                                                        value="<?php $mod->id; ?>">
+                                                    <?php $mod->title; ?>
+                                                </option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                    </li>
+
                                     <div class="clearfix"></div>
                                 </ul>
                             </div>
