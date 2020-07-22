@@ -97,13 +97,13 @@ $('.available select').on('change', function () {
 });
 
 
-// Search
+/* Search */
 let products = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.whitespace,
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     remote: {
         wildcard: '%QUERY',
-        url: path + '/search/result?query=%QUERY'
+        url: path + '/search/typeahead?query=%QUERY'
     }
 });
 
@@ -112,14 +112,14 @@ products.initialize();
 $("#typeahead").typeahead({
     // hint: false,
     highlight: true
-}, {
+},{
     name: 'products',
     display: 'title',
     limit: 10,
     source: products
 });
 
-$('#typeahead').bind('typeahead:select', function (ev, suggestion) {
-    // console.log(suggestion);
-    window.location = path + '/search/?s=' + encodeURIComponent(suggestion.title);
+$('#typeahead').bind('typeahead:select', function(ev, suggestion) {
+    window.location = path + '/search?q=' + encodeURIComponent(suggestion.title);
 });
+

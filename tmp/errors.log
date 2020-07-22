@@ -238,3 +238,27 @@
 [2020-07-22 18:47:11] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
 [2020-07-22 19:00:08] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
 [2020-07-22 19:00:13] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 19:27:00] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:27:43] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:28:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:29:26] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:35:19] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:35:23] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:35:48] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:38:16] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:38:35] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:39:09] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:39:41] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 19:41:15] Error text : Controller app\controllers\QController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-22 19:41:39] Error text : Controller app\controllers\QController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-22 19:41:59] Error text : Controller app\controllers\QController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-22 19:42:00] Error text : Controller app\controllers\QController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-22 19:44:56] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:44:57] Error text : Controller app\controllers\SearcdsadhController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-22 19:44:58] Error text : Controller app\controllers\SearcdsadhController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-22 19:45:49] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:45:51] Error text : Method app\controllers\SearchController::typeaheadAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 19:45:52] Error text : Method app\controllers\SearchController::typeaheadAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 19:46:00] Error text : Method app\controllers\SearchController::typeaheadAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 19:46:13] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 19:47:17] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 

@@ -84,7 +84,7 @@
             <div class="col-md-3 header-right">
                 <div class="search-bar">
                     <form action="search" method="GET" autocomplete="off">
-                        <input type="text" id="typeahead" class="typeahead" name="search">
+                        <input type="text" id="typeahead" class="typeahead" name="q">
                         <input type="submit" value="">
                     </form>
                 </div>

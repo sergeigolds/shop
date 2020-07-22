@@ -4,7 +4,8 @@ namespace app\controllers;
 
 class SearchController extends AppController
 {
-    public function resultAction()
+
+    public function typeaheadAction()
     {
         if ($this->isAjax()) {
             $query = !empty(trim($_GET['query'])) ? trim($_GET['query']) : null;
@@ -13,17 +14,17 @@ class SearchController extends AppController
                 echo json_encode($products);
             }
         }
-        die();
+        die;
     }
 
     public function indexAction()
     {
-        $query = !empty(trim($_GET['s'])) ? trim($_GET['s']) : null;
+        $query = !empty(trim($_GET['q'])) ? trim($_GET['q']) : null;
         if ($query) {
-            $products = \R::find('product', 'title LIKE ?', ["%{$query}%"]);
+            $products = \R::find('product', "title LIKE ?", ["%{$query}%"]);
         }
-        $this->setMeta('Search for: ' . h($query));
+        $this->setMeta('Поиск по: ' . h($query));
         $this->set(compact('products', 'query'));
-
     }
+
 }
