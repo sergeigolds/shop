@@ -227,3 +227,14 @@
 [2020-07-22 17:22:45] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-07-22 17:53:45] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-07-22 18:07:16] Error text : Controller app\controllers\SearchController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-07-22 18:16:40] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 18:16:41] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 18:16:50] Error text : View C:\OpenServer\domains\shop/app/views/Search/result.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-07-22 18:16:51] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 18:17:03] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 18:17:31] Error text : View C:\OpenServer\domains\shop/app/views/Search/result.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-07-22 18:45:07] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 18:47:08] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 18:47:11] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 19:00:08] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 19:00:13] Error text : Method app\controllers\SearchController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
