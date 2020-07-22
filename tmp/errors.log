@@ -193,3 +193,37 @@
 [2020-07-21 20:11:57] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-07-21 20:11:57] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-07-21 20:15:47] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 13:16:20] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 13:40:59] Error text : Method app\controllers\CartController::showAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 13:41:02] Error text : Method app\controllers\CartController::showAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 13:41:06] Error text : Method app\controllers\CartController::showAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 13:41:10] Error text : Method app\controllers\CartController::showAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 14:07:05] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:13:42] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:13:42] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:42:59] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:44:29] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:45:24] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:46:15] Error text : Method app\controllers\CartController::deleteAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 14:46:20] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:46:22] Error text : Method app\controllers\CartController::deleteAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 14:46:31] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:46:32] Error text : Method app\controllers\CartController::deleteAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 14:50:01] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:50:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 14:51:27] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 15:14:30] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 15:18:31] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 15:45:06] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 16:14:17] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 16:15:56] Error text : syntax error, unexpected '.5' (T_DNUMBER), expecting ']' | File : C:\OpenServer\domains\shop\app\views\Product\view.php | Line : 1 
+[2020-07-22 16:39:19] Error text : Method app\controllers\CartController::viewAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-07-22 16:44:22] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 16:49:35] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 16:50:02] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 16:51:05] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 17:11:02] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 17:22:42] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 17:22:45] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 17:53:45] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-07-22 18:07:16] Error text : Controller app\controllers\SearchController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 

@@ -15,8 +15,9 @@
             <?php foreach ($_SESSION['cart'] as $id => $item): ?>
                 <tr>
                     <td>
-                        <a href="product/<?= $item['alias']; ?>"><img src="images/<?= $item['img']; ?>"
-                                                                       alt="<?= $item['title']; ?>"></a>
+                        <a href="product/<?= $item['alias']; ?>">
+                            <img src="images/<?= $item['img']; ?>" alt="<?= $item['title']; ?>">
+                        </a>
                     </td>
                     <td>
                         <a href="product/<?= $item['alias']; ?>"><?= $item['title']; ?></a>
@@ -28,7 +29,8 @@
                         <?= $_SESSION['cart.currency']['symbol_left'] . $item['price'] . $_SESSION['cart.currency']['symbol_right']; ?>
                     </td>
                     <td>
-                        <span data-id="<?php $id; ?>" class="glyphicon glyphicon-remove text-danger del-item"
+                        <span data-id="<?= $id; ?>"
+                              class="glyphicon glyphicon-remove text-danger del-item"
                               aria-hidden="true">
                         </span>
                     </td>
@@ -40,7 +42,7 @@
             </tr>
             <tr>
                 <td>Total sum:</td>
-                <td colspan="4" class="text-right cart-qty">
+                <td colspan="4" class="text-right cart-sum">
                     <?= $_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.sum'] . $_SESSION['cart.currency']['symbol_right']; ?>
                 </td>
             </tr>

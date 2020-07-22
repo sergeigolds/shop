@@ -3082,3 +3082,12 @@ ul.tag-men {
 #cart table img {
 	height: 100px;
 }
+
+.del-item {
+	cursor: pointer;
+	opacity: 0.75;
+}
+
+.del-item:hover {
+	opacity: 1;
+}

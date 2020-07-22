@@ -41,12 +41,16 @@
             </div>
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
-                    <a href="checkout.html">
+                    <a href="cart/show" onclick="getCart(); return false;">
                         <div class="total">
-                            <span class="simpleCart_total"></span></div>
-                        <img src="images/cart-1.png" alt=""/>
+                            <img src="images/cart-1.png" alt="Cart">
+                            <?php if (!empty($_SESSION['cart'])): ?>
+                                <span class="simpleCart_total"><?= $_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.sum'] . $_SESSION['cart.currency']['symbol_right']; ?></span>
+                            <?php else: ?>
+                                <span class="simpleCart_total">Empty Cart</span>
+                            <?php endif; ?>
+                        </div>
                     </a>
-                    <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -79,9 +83,10 @@
             </div>
             <div class="col-md-3 header-right">
                 <div class="search-bar">
-                    <input type="text" value="Search" onfocus="this.value = '';"
-                           onblur="if (this.value == '') {this.value = 'Search';}">
-                    <input type="submit" value="">
+                    <form action="search" method="GET" autocomplete="off">
+                        <input type="text" id="typeahead" class="typeahead" name="search">
+                        <input type="submit" value="">
+                    </form>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -238,6 +243,7 @@
     });
 </script>
 <script src="megamenu/js/megamenu.js"></script>
+<script src="js/typeahead.bundle.js"></script>
 <script defer src="js/imagezoom.js"></script>
 <script defer src="js/jquery.flexslider.js"></script>
 <script>

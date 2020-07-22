@@ -16,13 +16,8 @@ class ProductController extends AppController
             throw new \Exception('Page not found', 404);
         }
 
-        //breadcrumbs
         $breadcrumbs = Breadcrumbs::getBreadcrumbs($product->category_id, $product->title);
-
-        // Related products
         $related = \R::getAll("SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id]);
-
-        //Gallery additional images
         $gallery = \R::findAll('gallery', 'product_id = ?', [$product->id]);
 
         // Recently viewed
