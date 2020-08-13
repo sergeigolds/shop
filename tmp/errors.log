@@ -301,3 +301,11 @@
 [2020-07-29 12:20:11] Error text : Too few arguments to function ishop\libs\Pagination::getCurrentPage(), 0 passed in C:\OpenServer\domains\shop\vendor\ishop\core\libs\Pagination.php on line 28 and exactly 1 expected | File : C:\OpenServer\domains\shop\vendor\ishop\core\libs\Pagination.php | Line : 39 
 [2020-07-29 12:20:19] Error text : Too few arguments to function ishop\libs\Pagination::getCurrentPage(), 0 passed in C:\OpenServer\domains\shop\vendor\ishop\core\libs\Pagination.php on line 28 and exactly 1 expected | File : C:\OpenServer\domains\shop\vendor\ishop\core\libs\Pagination.php | Line : 39 
 [2020-07-29 12:25:02] Error text : Too few arguments to function ishop\libs\Pagination::getCurrentPage(), 0 passed in C:\OpenServer\domains\shop\vendor\ishop\core\libs\Pagination.php on line 28 and exactly 1 expected | File : C:\OpenServer\domains\shop\vendor\ishop\core\libs\Pagination.php | Line : 39 
+[2020-08-13 15:35:24] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-13 15:35:41] Error text : Page not found | File : C:\OpenServer\domains\shop\app\controllers\CategoryController.php | Line : 17 
+[2020-08-13 16:07:37] Error text : Function name must be a string | File : C:\OpenServer\domains\shop\app\views\Category\view.php | Line : 48 
+[2020-08-13 16:07:37] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-13 16:08:15] Error text : Function name must be a string | File : C:\OpenServer\domains\shop\app\views\Category\view.php | Line : 48 
+[2020-08-13 16:08:15] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-13 16:08:16] Error text : Function name must be a string | File : C:\OpenServer\domains\shop\app\views\Category\view.php | Line : 48 
+[2020-08-13 16:08:16] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 

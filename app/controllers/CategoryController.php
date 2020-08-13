@@ -17,20 +17,20 @@ class CategoryController extends AppController
             throw new \Exception('Page not found', 404);
         }
 
-        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-        $perpage = App::$app->getProperty('pagination');
-        $pagination = new Pagination($page, $perpage, 20);
-
-
-        // breadcrumbs
         $breadcrumbs = Breadcrumbs::getBreadcrumbs($category->id);
 
         $cat_model = new Category();
         $ids = $cat_model->getIds($category->id);
         $ids = !$ids ? $category->id : $ids . $category->id;
 
-        $products = \R::find('product', "category_id in ($ids)");
+        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $perpage = App::$app->getProperty('pagination');
+        $total = \R::count('product', "category_id in ($ids)");
+        $pagination = new Pagination($page, $perpage, $total);
+        $start = $pagination->getStart();
+
+        $products = \R::find('product', "category_id in ($ids) LIMIT $start, $perpage");
         $this->setMeta($category->title, $category->description, $category->keywords);
-        $this->set(compact('products', 'breadcrumbs'));
+        $this->set(compact('products', 'breadcrumbs', 'pagination', 'total'));
     }
 }
