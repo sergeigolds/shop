@@ -30,13 +30,23 @@ class UserController extends AppController
 
     public function loginAction()
     {
-
+        if (!empty($_POST)) {
+            $user = new User();
+            if ($user->login()) {
+                $_SESSION['success'] = 'You are successfully logged in';
+            } else {
+                $_SESSION['error'] = 'Login or password is not correct';
+            }
+            redirect();
+        }
+        $this->setMeta('Login');
     }
 
     public function logoutAction()
     {
-
+        if (isset($_SESSION['user'])) {
+            unset($_SESSION['user']);
+            redirect();
+        }
     }
-
-
 }
