@@ -31,7 +31,7 @@
                     <div class="btn-group">
                         <a class="dropdown-toggle" data-toggle="dropdown">Account <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <?php if (! empty($_SESSION['user'])): ?>
+                            <?php if (!empty($_SESSION['user'])): ?>
                                 <li><a href="#">Welcome, <?= h($_SESSION['user']['name']); ?></a></li>
                                 <li><a href="user/logout">Logout</a></li>
                             <?php else: ?>
@@ -100,6 +100,24 @@
 <!--bottom-header-->
 
 <div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <?php if (isset($_SESSION['error'])): ?>
+                    <div class="alert alert-danger">
+                        <?= $_SESSION['error'];
+                        unset($_SESSION['error']) ?>
+                    </div>
+                <?php endif; ?>
+                <?php if (isset($_SESSION['success'])): ?>
+                    <div class="alert alert-success">
+                        <?= $_SESSION['uccess'];
+                        unset($_SESSION['success']) ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
     <?= $content; ?>
 </div>
 
