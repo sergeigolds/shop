@@ -111,7 +111,7 @@
                 <?php endif; ?>
                 <?php if (isset($_SESSION['success'])): ?>
                     <div class="alert alert-success">
-                        <?= $_SESSION['uccess'];
+                        <?= $_SESSION['success'];
                         unset($_SESSION['success']) ?>
                     </div>
                 <?php endif; ?>
