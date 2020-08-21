@@ -92,5 +92,6 @@ class CartController extends AppController
             Order::mailOrder($order_id, $user_email);
         }
         redirect();
+
     }
 }
