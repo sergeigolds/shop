@@ -323,3 +323,39 @@
 [2020-08-14 14:01:54] Error text : SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
 [2020-08-14 14:02:02] Error text : SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
 [2020-08-21 14:22:57] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-21 17:08:04] Error text : Connection could not be established with host smtp-relay.sendinblue.com :stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | Line : 269 
+[2020-08-21 17:08:50] Error text : Expected response code 250 but got code "450", with message "450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+" | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php | Line : 457 
+[2020-08-21 17:08:59] Error text : Expected response code 250 but got code "450", with message "450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+" | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php | Line : 457 
+[2020-08-21 17:09:36] Error text : Expected response code 250 but got code "450", with message "450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+" | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php | Line : 457 
+[2020-08-21 17:10:00] Error text : Controller app\controllers\CController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-08-21 17:10:12] Error text : Expected response code 250 but got code "450", with message "450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+" | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php | Line : 457 
+[2020-08-21 17:14:05] Error text : Failed to authenticate on SMTP server with username "blackatan777@gmail.com" using 3 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h17sm411898ljj.118 - gsmtp
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h17sm411898ljj.118 - gsmtp
+". Authenticator XOAUTH2 returned Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h17sm411898ljj.118 - gsmtp
+". | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Line : 191 
+[2020-08-21 17:16:40] Error text : Failed to authenticate on SMTP server with username "blackatan777@gmail.com" using 3 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x205sm411296lfa.96 - gsmtp
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x205sm411296lfa.96 - gsmtp
+". Authenticator XOAUTH2 returned Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x205sm411296lfa.96 - gsmtp
+". | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Line : 191 
+[2020-08-21 17:18:58] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-21 17:19:13] Error text : Expected response code 220 but got an empty response | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php | Line : 445 
+[2020-08-21 17:19:30] Error text : Failed to authenticate on SMTP server with username "blackatan777@gmail.com" using 3 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x17sm433239ljm.0 - gsmtp
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x17sm433239ljm.0 - gsmtp
+". Authenticator XOAUTH2 returned Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x17sm433239ljm.0 - gsmtp
+". | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Line : 191 
+[2020-08-21 17:20:51] Error text : Connection could not be established with host smtp.gmail.com :stream_socket_client(): unable to connect to ssl://smtp.gmail.com:2525 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+) | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | Line : 269 
