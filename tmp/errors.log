@@ -322,3 +322,4 @@
 [2020-08-14 14:00:18] Error text : SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
 [2020-08-14 14:01:54] Error text : SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
 [2020-08-14 14:02:02] Error text : SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-21 14:22:57] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
