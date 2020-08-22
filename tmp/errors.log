@@ -359,3 +359,14 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | File : C:\Ope
 ". | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Line : 191 
 [2020-08-21 17:20:51] Error text : Connection could not be established with host smtp.gmail.com :stream_socket_client(): unable to connect to ssl://smtp.gmail.com:2525 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
 ) | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | Line : 269 
+[2020-08-22 13:22:38] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:31:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:31:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:31:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:31:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:31:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:31:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:31:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:31:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:31:10] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-22 16:38:16] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 

@@ -208,6 +208,10 @@
 </div>
 
 
+<div class="preloader">
+    <img src="images/ring.svg" alt="">
+</div>
+
 <!--footer-end-->
 <?php $curr = \ishop\App::$app->getProperty('currency'); ?>
 <script>
