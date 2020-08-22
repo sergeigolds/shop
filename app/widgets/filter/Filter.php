@@ -47,7 +47,7 @@ class Filter
 
     protected function getAttrs()
     {
-        $data = \R::getAssoc('SELECT * from attribute_value');
+        $data = \R::getAssoc('SELECT * FROM attribute_value');
         $attrs = [];
         foreach ($data as $k => $v) {
             $attrs[$v['attr_group_id']][$k] = $v['value'];
@@ -55,4 +55,13 @@ class Filter
         return $attrs;
     }
 
+    public static function getFilter()
+    {
+        $filter = null;
+        if (!empty($_GET['filter'])) {
+            $filter = preg_replace("#[^\d,]+#", '', $_GET['filter']);
+            $filter = trim($filter, ',');
+        }
+        return $filter;
+    }
 }
