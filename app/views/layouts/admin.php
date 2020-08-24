@@ -2,9 +2,10 @@
 <html>
 <head>
     <base href="/adminlte/">
+    <link rel="shortcut icon" href="../images/star.png" type="image/png">
+    <?= $this->getMeta(); ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 3 | Dashboard</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font Awesome -->
@@ -161,7 +162,7 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                 data-accordion="false">
                 <li class="nav-item">
-                    <a href="<?= ADMIN ?>/" class="nav-link">
+                    <a href="<?= ADMIN ?>/" class="nav-link active">
                         <i class="nav-icon fa fa-home"></i>
                         <p>
                             Home
@@ -264,6 +265,13 @@
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <?= $content; ?>
+    <?php
+    $logs = \R::getDatabaseAdapter()
+        ->getDatabase()
+        ->getLogger();
+
+    debug( $logs->grep( 'SELECT' ) );
+    ?>
 </div>
 <!-- /.content-wrapper -->
 <footer class="main-footer">
@@ -281,6 +289,11 @@
 <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
+<script>
+    var path = '<?= PATH; ?>',
+        adminpath = '<?= ADMIN;?>'
+</script>
+
 
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>
@@ -290,31 +303,10 @@
 <script>
     $.widget.bridge('uibutton', $.ui.button)
 </script>
-<!-- Bootstrap 4 -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- ChartJS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
-<!-- Sparkline -->
-<script src="plugins/sparklines/sparkline.js"></script>
-<!-- JQVMap -->
-<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-<!-- jQuery Knob Chart -->
-<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
-<!-- daterangepicker -->
-<script src="plugins/moment/moment.min.js"></script>
-<script src="plugins/daterangepicker/daterangepicker.js"></script>
-<!-- Tempusdominus Bootstrap 4 -->
-<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-<!-- Summernote -->
-<script src="plugins/summernote/summernote-bs4.min.js"></script>
-<!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<!-- AdminLTE App -->
 <script src="dist/js/adminlte.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+
+
+
 </body>
 </html>
