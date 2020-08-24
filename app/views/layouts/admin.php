@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="my.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Tempusdominus Bbootstrap 4 -->
@@ -264,14 +265,19 @@
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
+    <?php if (isset($_SESSION['error'])): ?>
+        <div class="alert alert-danger">
+            <?php echo $_SESSION['error'];
+            unset($_SESSION['error']); ?>
+        </div>
+    <?php endif; ?>
+    <?php if (isset($_SESSION['success'])): ?>
+        <div class="alert alert-success">
+            <?php echo $_SESSION['success'];
+            unset($_SESSION['success']); ?>
+        </div>
+    <?php endif; ?>
     <?= $content; ?>
-    <?php
-    $logs = \R::getDatabaseAdapter()
-        ->getDatabase()
-        ->getLogger();
-
-    debug( $logs->grep( 'SELECT' ) );
-    ?>
 </div>
 <!-- /.content-wrapper -->
 <footer class="main-footer">
@@ -306,7 +312,6 @@
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="dist/js/adminlte.js"></script>
 
-
-
+<script src="my.js"></script>
 </body>
 </html>

@@ -830,3 +830,48 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | File : C:\Ope
 [2020-08-24 22:33:32] Error text : Controller app\controllers\admin\OrderController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
 [2020-08-24 22:34:08] Error text : Controller app\controllers\admin\OrderController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
 [2020-08-24 22:36:28] Error text : Method app\controllers\admin\OrderController::viewAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-24 22:42:12] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/view.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 22:42:19] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/view.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 22:49:55] Error text : Controller app\controllers\admin\LoginController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
+[2020-08-24 22:51:33] Error text : Method app\controllers\admin\OrderController::changeAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-24 22:55:01] Error text : Method app\controllers\admin\OrderController::deleteAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-24 23:00:14] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-24 23:01:39] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:01:39] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-24 23:01:54] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:02:45] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:16:15] Error text : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status2' in 'field list' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:17:58] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:18:01] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:18:24] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:18:50] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:18:51] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:18:53] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:18:59] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:19:36] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:19:43] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:21:02] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:21:24] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:21:43] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:25:13] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:25:13] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:25:50] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:26:19] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:30:37] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:33:19] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:33:25] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-24 23:41:39] Error text : OODB Store requires a bean, got: array | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\OODB.php | Line : 119 
+[2020-08-24 23:42:13] Error text : OODB Store requires a bean, got: array | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\OODB.php | Line : 119 
+[2020-08-24 23:45:21] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:46:07] Error text : Failed to authenticate on SMTP server with username "blackatan777@gmail.com" using 3 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w19sm2376599ljd.112 - gsmtp
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w19sm2376599ljd.112 - gsmtp
+". Authenticator XOAUTH2 returned Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w19sm2376599ljd.112 - gsmtp
+". | File : C:\OpenServer\domains\shop\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Line : 191 
+[2020-08-24 23:55:36] Error text : View C:\OpenServer\domains\shop/app/views/admin\Order/change.php not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\base\View.php | Line : 43 
+[2020-08-24 23:59:55] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-25 00:31:15] Error text : SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-25 00:31:17] Error text : SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-25 00:47:54] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
