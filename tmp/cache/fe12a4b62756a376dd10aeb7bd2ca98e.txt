@@ -1,4 +1,4 @@
-a:2:{s:4:"data";s:1202:"<li>
+a:2:{s:4:"data";s:1286:"<li>
     <a href="category/men">Men</a>
             <ul>
             <li>
@@ -21,9 +21,6 @@ a:2:{s:4:"data";s:1202:"<li>
 <li>
     <a href="category/seiko">Seiko</a>
     </li>
-<li>
-    <a href="category/epos">Epos</a>
-    </li>
         </ul>
     </li>
         </ul>
@@ -41,15 +38,18 @@ a:2:{s:4:"data";s:1202:"<li>
     </li>
 <li>
     <a href="category/mehanicheskie-12">Механические</a>
-            <ul>
-            <li>
-    <a href="category/anne-klein">Anne Klein</a>
-    </li>
-        </ul>
     </li>
         </ul>
     </li>
 <li>
     <a href="category/kids">Kids</a>
     </li>
-";s:8:"end_time";i:1598345483;}
+<li>
+    <a href="category/testovaya-kategoriya">Тестовая категория</a>
+            <ul>
+            <li>
+    <a href="category/testovaya-kategoriya2">Тестовая категория2</a>
+    </li>
+        </ul>
+    </li>
+";s:8:"end_time";i:1598350821;}
