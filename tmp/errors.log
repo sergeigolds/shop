@@ -902,3 +902,5 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | File : C:\Ope
 [2020-08-25 12:18:41] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
 [2020-08-25 12:18:45] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
 [2020-08-25 12:18:53] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-25 12:43:52] Error text : Call to undefined method app\models\Category::update() | File : C:\OpenServer\domains\shop\app\controllers\admin\CategoryController.php | Line : 72 
+[2020-08-25 12:45:12] Error text : Call to undefined method app\models\Category::update() | File : C:\OpenServer\domains\shop\app\controllers\admin\CategoryController.php | Line : 72 
