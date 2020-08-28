@@ -1,5 +1,4 @@
 // TODO chunk js/css files to files like cart.js cart.css and after compile and minify all to one file like build.js
-
 // Add to cart
 $('body').on('click', '.add-to-cart-link', function (e) {
     e.preventDefault();
