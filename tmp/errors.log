@@ -912,3 +912,8 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | File : C:\Ope
 [2020-08-28 18:56:46] Error text : Controller app\controllers\admin\ProductController not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 40 
 [2020-08-28 19:03:15] Error text : Method app\controllers\admin\ProductController::editAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
 [2020-08-28 19:04:29] Error text : Method app\controllers\admin\ProductController::addAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-28 19:28:35] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'hit' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-28 19:28:44] Error text : SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-28 19:29:54] Error text : Method app\controllers\ProductController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-28 19:30:09] Error text : Method app\controllers\ProductController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-28 19:31:36] Error text : Method app\controllers\ProductController::indexAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
