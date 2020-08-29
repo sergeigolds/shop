@@ -36,10 +36,10 @@ CKEDITOR.editorConfig = function( config ) {
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
 
-    config.filebrowserBrowseUrl = path + '/adminlte/bower_components/kcfinder/browse.php?opener=ckeditor&type=files';
-    config.filebrowserImageBrowseUrl = path + '/adminlte/bower_components/kcfinder/browse.php?opener=ckeditor&type=images';
-    config.filebrowserFlashBrowseUrl = path + '/adminlte/bower_components/kcfinder/browse.php?opener=ckeditor&type=flash';
-    config.filebrowserUploadUrl = path + '/adminlte/bower_components/kcfinder/upload.php?opener=ckeditor&type=files';
-    config.filebrowserImageUploadUrl = path + '/adminlte/bower_components/kcfinder/upload.php?opener=ckeditor&type=images';
-    config.filebrowserFlashUploadUrl = path + '/adminlte/bower_components/kcfinder/upload.php?opener=ckeditor&type=flash';
+    config.filebrowserBrowseUrl = path + '/adminlte/plugins/kcfinder/browse.php?opener=ckeditor&type=files';
+    config.filebrowserImageBrowseUrl = path + '/adminlte/plugins/kcfinder/browse.php?opener=ckeditor&type=images';
+    config.filebrowserFlashBrowseUrl = path + '/adminlte/plugins/kcfinder/browse.php?opener=ckeditor&type=flash';
+    config.filebrowserUploadUrl = path + '/adminlte/plugins/kcfinder/upload.php?opener=ckeditor&type=files';
+    config.filebrowserImageUploadUrl = path + '/adminlte/plugins/kcfinder/upload.php?opener=ckeditor&type=images';
+    config.filebrowserFlashUploadUrl = path + '/adminlte/plugins/kcfinder/upload.php?opener=ckeditor&type=flash';
 };

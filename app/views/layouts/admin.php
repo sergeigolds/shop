@@ -16,6 +16,7 @@
     <!-- Tempusdominus Bbootstrap 4 -->
     <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
     <!-- iCheck -->
+    <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
     <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- JQVMap -->
     <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
@@ -311,8 +312,11 @@
 </script>
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="/js/validator.min.js"></script>
+<script src="/js/ajaxupload.js"></script>
 <script src="dist/js/adminlte.js"></script>
+<script src="plugins/select2/js/select2.full.js"></script>
 <script src="plugins/ckeditor/ckeditor.js"></script>
+<script src="plugins/ckeditor/adapters/jquery.js"></script>
 
 <script src="my.js"></script>
 </body>

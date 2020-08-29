@@ -986,3 +986,22 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | File : C:\Ope
 [2020-08-29 11:21:51] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-08-29 18:04:46] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-08-29 18:04:54] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-29 18:15:50] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-29 18:18:39] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-29 18:39:55] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-29 18:48:45] Error text : SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect double value: '' for column `ishop`.`product`.`old_price` at row 1 | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-29 19:08:47] Error text : Method app\controllers\admin\ProductController::relatedProductAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:08:50] Error text : Method app\controllers\admin\ProductController::relatedProductAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:08:51] Error text : Method app\controllers\admin\ProductController::relatedProductAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:08:53] Error text : Method app\controllers\admin\ProductController::relatedProductAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:08:54] Error text : Method app\controllers\admin\ProductController::relatedProductAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:08:55] Error text : Method app\controllers\admin\ProductController::relatedProductAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:08:57] Error text : Method app\controllers\admin\ProductController::relatedProductAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:09:01] Error text : Method app\controllers\admin\ProductController::relatedProductAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:09:02] Error text : Method app\controllers\admin\ProductController::relatedProductAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:36:54] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-29 19:37:17] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-29 19:37:51] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-29 19:37:51] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-29 19:37:51] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
+[2020-08-29 19:43:42] Error text : Method app\controllers\admin\ProductController::addImageAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
