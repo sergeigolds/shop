@@ -314,7 +314,6 @@
 <script src="dist/js/adminlte.js"></script>
 <script src="plugins/ckeditor/ckeditor.js"></script>
 
-
 <script src="my.js"></script>
 </body>
 </html>
