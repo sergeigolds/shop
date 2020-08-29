@@ -1005,3 +1005,19 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | File : C:\Ope
 [2020-08-29 19:37:51] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-08-29 19:37:51] Error text : Page not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 43 
 [2020-08-29 19:43:42] Error text : Method app\controllers\admin\ProductController::addImageAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:51:20] Error text : Class 'app\controllers\admin\App' not found | File : C:\OpenServer\domains\shop\app\controllers\admin\ProductController.php | Line : 31 
+[2020-08-29 19:51:28] Error text : Method app\controllers\admin\ProductController::editAction not found | File : C:\OpenServer\domains\shop\vendor\ishop\core\Router.php | Line : 37 
+[2020-08-29 19:51:41] Error text : Class 'app\controllers\admin\App' not found | File : C:\OpenServer\domains\shop\app\controllers\admin\ProductController.php | Line : 28 
+[2020-08-29 19:51:44] Error text : Class 'app\controllers\admin\App' not found | File : C:\OpenServer\domains\shop\app\controllers\admin\ProductController.php | Line : 31 
+[2020-08-29 19:54:20] Error text : Class 'app\controllers\admin\App' not found | File : C:\OpenServer\domains\shop\app\controllers\admin\ProductController.php | Line : 28 
+[2020-08-29 20:00:51] Error text : Class 'app\controllers\admin\App' not found | File : C:\OpenServer\domains\shop\app\controllers\admin\ProductController.php | Line : 31 
+[2020-08-29 20:07:21] Error text : Class 'app\controllers\admin\App' not found | File : C:\OpenServer\domains\shop\app\controllers\admin\ProductController.php | Line : 28 
+[2020-08-29 20:16:43] Error text : Class 'app\controllers\admin\App' not found | File : C:\OpenServer\domains\shop\app\controllers\admin\ProductController.php | Line : 28 
+[2020-08-29 20:19:54] Error text : Class 'app\controllers\admin\App' not found | File : C:\OpenServer\domains\shop\app\controllers\admin\ProductController.php | Line : 28 
+[2020-08-29 20:45:10] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-29 20:45:39] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-29 20:46:38] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-29 20:47:20] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-29 20:47:31] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-29 20:47:41] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 
+[2020-08-29 20:50:31] Error text : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | File : C:\OpenServer\domains\shop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line : 194 

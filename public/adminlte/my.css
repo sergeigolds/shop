@@ -71,3 +71,13 @@ form .has-error .form-control{
     top:50vh;
     margin:-100px 0 0 -100px;
 }
+
+#reset-filter{
+    background-color: #dd4b39;
+    border-color: #d73925;
+    color: #fff;
+}
+
+.overlay{
+    display: none;
+}
