@@ -17,9 +17,13 @@ class Db
             throw new \Exception('Database connect error', 500);
         }
         \R::freeze(true);
-        if(DEBUG){
+        if (DEBUG) {
             \R::debug(true, 1);
         }
+
+        \R::ext('xdispense', function ($type) {
+            return \R::getRedBean()->dispense($type);
+        });
 
     }
 }

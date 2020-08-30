@@ -256,6 +256,52 @@
                         </p>
                     </a>
                 </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fa fa-money"></i>
+                        <p>
+                            Валюты
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="<?= ADMIN ?>/currency" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Список валют</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ADMIN ?>/currency/add" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Добавить валюту</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fa fa-filter"></i>
+                        <p>
+                            Фильтры
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="<?= ADMIN ?>/filter/attribute-group" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Группы фильтров</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= ADMIN ?>/filter/attribute" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Фильтры</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
 
             </ul>
         </nav>
